@@ -1,8 +1,6 @@
-# beyond_chats
-
 # NOTE: beyond_chats
 
-# Reddit Persona Generator
+## RedditPsyche
 
 A modular, production-ready application that analyzes Reddit user activity and generates a psychological or behavioral persona based on their posts and comments. Built using LangGraph, FastAPI, and integrates LLMs via Groq or other providers.
 
