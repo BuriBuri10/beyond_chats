@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+praw
+langchain
+langchain-core
+langchain-groq
+langchain-community
+langgraph
+python-dotenv
+loguru
+httpx

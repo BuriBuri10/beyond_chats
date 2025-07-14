@@ -1,0 +1,307 @@
+2025-07-15 00:15:55.851 | INFO     | __main__:main:116 - Received URL: https://www.reddit.com/user/kojied/
+2025-07-15 00:15:55.852 | INFO     | __main__:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 00:15:56.384 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:11 - ScraperNode initialized with RedditScraper
+2025-07-15 00:15:56.811 | INFO     | core.prompt_templates:__init__:15 - PersonaPromptBuilder initialized
+2025-07-15 00:15:56.811 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 00:15:56.811 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - ✅ AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 00:15:56.811 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 00:15:56.813 | INFO     | __main__:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 00:15:56.816 | INFO     | __main__:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 00:15:56.817 | INFO     | __main__:run:104 - Running workflow for user: kojied
+2025-07-15 00:15:56.821 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:16 - Scraping Reddit data for: kojied
+2025-07-15 00:15:59.323 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 10 posts and 10 comments for user: kojied
+2025-07-15 00:15:59.323 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:30 - Scraped 20 documents for user: kojied
+2025-07-15 00:15:59.324 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 20 Reddit posts...
+2025-07-15 00:15:59.324 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: kojied
+2025-07-15 00:16:01.712 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built kojied's Persona Card
+2025-07-15 00:16:01.712 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 00:16:01.713 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 00:16:01.713 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\kojied_persona.txt
+2025-07-15 00:16:01.714 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 00:16:01.717 | WARNING  | __main__:get_graph_structure:62 - Pyppeteer is not installed. To enable browser-based rendering, run:
+
+    pip install pyppeteer
+
+2025-07-15 00:16:02.384 | INFO     | __main__:get_graph_structure:74 - Graph saved as -- graph_structure.png
+2025-07-15 00:16:02.384 | INFO     | __main__:main:151 - Saved graph's structure as graph_structure.png
+2025-07-15 01:06:48.622 | INFO     | workflows.workflow:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 01:06:48.625 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:11 - ScraperNode initialized with RedditScraper
+2025-07-15 01:06:49.173 | INFO     | core.prompt_templates:__init__:15 - PersonaPromptBuilder initialized
+2025-07-15 01:06:49.174 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 01:06:49.174 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - ✅ AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 01:06:49.175 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 01:06:49.175 | INFO     | workflows.workflow:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 01:06:49.180 | INFO     | workflows.workflow:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 01:06:49.181 | INFO     | workflows.workflow:run:104 - Running workflow for user: kojied
+2025-07-15 01:06:49.186 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:16 - Scraping Reddit data for: kojied
+2025-07-15 01:07:04.402 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 10 posts and 10 comments for user: kojied
+2025-07-15 01:07:04.403 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:30 - Scraped 20 documents for user: kojied
+2025-07-15 01:07:04.404 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 20 Reddit posts...
+2025-07-15 01:07:04.404 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: kojied
+2025-07-15 01:07:14.509 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built kojied's Persona Card
+2025-07-15 01:07:14.510 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 01:07:14.511 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 01:07:14.511 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\kojied_persona.txt
+2025-07-15 01:07:14.512 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 01:08:30.509 | INFO     | workflows.workflow:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 01:08:30.510 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:11 - ScraperNode initialized with RedditScraper
+2025-07-15 01:08:30.891 | INFO     | core.prompt_templates:__init__:15 - PersonaPromptBuilder initialized
+2025-07-15 01:08:30.891 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 01:08:30.891 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - ✅ AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 01:08:30.893 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 01:08:30.894 | INFO     | workflows.workflow:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 01:08:30.898 | INFO     | workflows.workflow:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 01:08:30.898 | INFO     | workflows.workflow:run:104 - Running workflow for user: kojied
+2025-07-15 01:08:30.900 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:16 - Scraping Reddit data for: kojied
+2025-07-15 01:08:33.772 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 10 posts and 10 comments for user: kojied
+2025-07-15 01:08:33.773 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:30 - Scraped 20 documents for user: kojied
+2025-07-15 01:08:33.774 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 20 Reddit posts...
+2025-07-15 01:08:33.774 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: kojied
+2025-07-15 01:08:36.449 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built kojied's Persona Card
+2025-07-15 01:08:36.450 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 01:08:36.451 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 01:08:36.451 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\kojied_persona.txt
+2025-07-15 01:08:36.452 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 01:10:51.786 | INFO     | workflows.workflow:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 01:10:51.790 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:11 - ScraperNode initialized with RedditScraper
+2025-07-15 01:10:52.266 | INFO     | core.prompt_templates:__init__:15 - PersonaPromptBuilder initialized
+2025-07-15 01:10:52.266 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 01:10:52.266 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - ✅ AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 01:10:52.266 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 01:10:52.267 | INFO     | workflows.workflow:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 01:10:52.272 | INFO     | workflows.workflow:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 01:10:52.272 | INFO     | workflows.workflow:run:104 - Running workflow for user: kojied
+2025-07-15 01:10:52.275 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:16 - Scraping Reddit data for: kojied
+2025-07-15 01:10:55.337 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 10 posts and 10 comments for user: kojied
+2025-07-15 01:10:55.337 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:30 - Scraped 20 documents for user: kojied
+2025-07-15 01:10:55.338 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 20 Reddit posts...
+2025-07-15 01:10:55.338 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: kojied
+2025-07-15 01:10:57.812 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built kojied's Persona Card
+2025-07-15 01:10:57.813 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 01:10:57.813 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 01:10:57.814 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\kojied_persona.txt
+2025-07-15 01:10:57.814 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 01:11:55.280 | INFO     | workflows.workflow:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 01:11:55.281 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:11 - ScraperNode initialized with RedditScraper
+2025-07-15 01:11:55.625 | INFO     | core.prompt_templates:__init__:15 - PersonaPromptBuilder initialized
+2025-07-15 01:11:55.626 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 01:11:55.626 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - ✅ AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 01:11:55.626 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 01:11:55.628 | INFO     | workflows.workflow:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 01:11:55.631 | INFO     | workflows.workflow:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 01:11:55.632 | INFO     | workflows.workflow:run:104 - Running workflow for user: kojied
+2025-07-15 01:11:55.633 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:16 - Scraping Reddit data for: kojied
+2025-07-15 01:11:58.383 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 10 posts and 10 comments for user: kojied
+2025-07-15 01:11:58.383 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:30 - Scraped 20 documents for user: kojied
+2025-07-15 01:11:58.384 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 20 Reddit posts...
+2025-07-15 01:11:58.384 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: kojied
+2025-07-15 01:12:00.497 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built kojied's Persona Card
+2025-07-15 01:12:00.497 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 01:12:00.498 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 01:12:00.499 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\kojied_persona.txt
+2025-07-15 01:12:00.500 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 02:34:00.553 | INFO     | __main__:main:116 - Received URL: https://www.reddit.com/user/Hungry-Move-6603/
+2025-07-15 02:34:00.553 | INFO     | __main__:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 02:34:00.890 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:50 - ScraperNode initialized with RedditScraper
+2025-07-15 02:34:01.365 | INFO     | core.prompt_templates:__init__:15 - PersonaPromptBuilder initialized
+2025-07-15 02:34:01.365 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 02:34:01.366 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - ✅ AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 02:34:01.366 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 02:34:01.368 | INFO     | __main__:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 02:34:01.373 | INFO     | __main__:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 02:34:01.373 | INFO     | __main__:run:104 - Running workflow for user: Hungry-Move-6603
+2025-07-15 02:34:01.377 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:55 - Scraping Reddit data for: Hungry-Move-6603
+2025-07-15 02:34:03.772 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 3 posts and 10 comments for user: Hungry-Move-6603
+2025-07-15 02:34:03.772 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:70 - Scraped 13 documents for user: Hungry-Move-6603
+2025-07-15 02:34:03.773 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 13 Reddit posts...
+2025-07-15 02:34:03.773 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: Hungry-Move-6603
+2025-07-15 02:34:06.168 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built Hungry-Move-6603's Persona Card
+2025-07-15 02:34:06.168 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 02:34:06.169 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 02:34:06.171 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\Hungry-Move-6603_persona.txt
+2025-07-15 02:34:06.171 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 02:34:06.177 | WARNING  | __main__:get_graph_structure:62 - Pyppeteer is not installed. To enable browser-based rendering, run:
+
+    pip install pyppeteer
+
+2025-07-15 02:34:06.888 | INFO     | __main__:get_graph_structure:74 - Graph saved as -- graph_structure.png
+2025-07-15 02:34:06.889 | INFO     | __main__:main:151 - Saved graph's structure as graph_structure.png
+2025-07-15 02:39:39.842 | INFO     | __main__:main:115 - Received URL: https://www.reddit.com/user/Hungry-Move-6603/
+2025-07-15 02:39:39.842 | INFO     | __main__:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 02:39:39.845 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:15 - ScraperNode Initialized with RedditScraper
+2025-07-15 02:39:40.275 | INFO     | core.prompt_templates:__init__:15 - PersonaPromptBuilder initialized
+2025-07-15 02:39:40.276 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 02:39:40.276 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - ✅ AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 02:39:40.276 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 02:39:40.278 | INFO     | __main__:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 02:39:40.283 | INFO     | __main__:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 02:39:40.283 | INFO     | __main__:run:103 - Running workflow for user: Hungry-Move-6603
+2025-07-15 02:39:40.287 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:20 - Scraping Reddit data for: Hungry-Move-6603
+2025-07-15 02:39:42.776 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 3 posts and 10 comments for user: Hungry-Move-6603
+2025-07-15 02:39:42.776 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:34 - Scraped 13 documents for user: Hungry-Move-6603
+2025-07-15 02:39:42.778 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 13 Reddit posts...
+2025-07-15 02:39:42.778 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: Hungry-Move-6603
+2025-07-15 02:39:45.364 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built Hungry-Move-6603's Persona Card
+2025-07-15 02:39:45.365 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 02:39:45.366 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 02:39:45.366 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\Hungry-Move-6603_persona.txt
+2025-07-15 02:39:45.367 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 02:39:45.371 | WARNING  | __main__:get_graph_structure:61 - Pyppeteer is not installed. To enable browser-based rendering, run:
+
+    pip install pyppeteer
+
+2025-07-15 02:39:46.003 | INFO     | __main__:get_graph_structure:73 - Graph saved as -- graph_structure.png
+2025-07-15 02:39:46.004 | INFO     | __main__:main:150 - Saved graph's structure as graph_structure.png
+2025-07-15 02:40:21.685 | INFO     | __main__:main:115 - Received URL: https://www.reddit.com/user/Hungry-Move-6603/
+2025-07-15 02:40:21.685 | INFO     | __main__:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 02:40:21.692 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:15 - ScraperNode Initialized with RedditScraper
+2025-07-15 02:40:22.152 | INFO     | core.prompt_templates:__init__:15 - PersonaPromptBuilder initialized
+2025-07-15 02:40:22.153 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 02:40:22.153 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 02:40:22.154 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 02:40:22.155 | INFO     | __main__:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 02:40:22.160 | INFO     | __main__:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 02:40:22.160 | INFO     | __main__:run:103 - Running workflow for user: Hungry-Move-6603
+2025-07-15 02:40:22.163 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:20 - Scraping Reddit data for: Hungry-Move-6603
+2025-07-15 02:40:24.816 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 3 posts and 10 comments for user: Hungry-Move-6603
+2025-07-15 02:40:24.817 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:34 - Scraped 13 documents for user: Hungry-Move-6603
+2025-07-15 02:40:24.818 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 13 Reddit posts...
+2025-07-15 02:40:24.818 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: Hungry-Move-6603
+2025-07-15 02:40:27.286 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built Hungry-Move-6603's Persona Card
+2025-07-15 02:40:27.286 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 02:40:27.287 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 02:40:27.288 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\Hungry-Move-6603_persona.txt
+2025-07-15 02:40:27.289 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 02:40:27.292 | WARNING  | __main__:get_graph_structure:61 - Pyppeteer is not installed. To enable browser-based rendering, run:
+
+    pip install pyppeteer
+
+2025-07-15 02:40:27.970 | INFO     | __main__:get_graph_structure:73 - Graph saved as -- graph_structure.png
+2025-07-15 02:40:27.971 | INFO     | __main__:main:150 - Saved graph's structure as graph_structure.png
+2025-07-15 02:56:24.728 | INFO     | __main__:main:115 - Received URL: joined_text = "\n".join(posts + comments)[:2000]
+2025-07-15 02:56:44.214 | INFO     | __main__:main:115 - Received URL: https://www.reddit.com/user/Hungry-Move-6603/
+2025-07-15 02:56:44.215 | INFO     | __main__:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 02:56:44.218 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:15 - ScraperNode Initialized with RedditScraper
+2025-07-15 02:56:44.658 | INFO     | core.prompt_templates:__init__:16 - PersonaPromptBuilder initialized
+2025-07-15 02:56:44.658 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 02:56:44.658 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 02:56:44.659 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 02:56:44.660 | INFO     | __main__:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 02:56:44.665 | INFO     | __main__:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 02:56:44.665 | INFO     | __main__:run:103 - Running workflow for user: Hungry-Move-6603
+2025-07-15 02:56:44.669 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:20 - Scraping Reddit data for: Hungry-Move-6603
+2025-07-15 02:56:47.959 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 3 posts and 10 comments for user: Hungry-Move-6603
+2025-07-15 02:56:47.959 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:34 - Scraped 13 documents for user: Hungry-Move-6603
+2025-07-15 02:56:47.960 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 13 Reddit posts...
+2025-07-15 02:56:47.960 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: Hungry-Move-6603
+2025-07-15 02:56:50.596 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built Hungry-Move-6603's Persona Card
+2025-07-15 02:56:50.598 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 02:56:50.598 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 02:56:50.599 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\Hungry-Move-6603_persona.txt
+2025-07-15 02:56:50.599 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 02:56:50.603 | WARNING  | __main__:get_graph_structure:61 - Pyppeteer is not installed. To enable browser-based rendering, run:
+
+    pip install pyppeteer
+
+2025-07-15 02:56:51.882 | INFO     | __main__:get_graph_structure:73 - Graph saved as -- graph_structure.png
+2025-07-15 02:56:51.883 | INFO     | __main__:main:150 - Saved graph's structure as graph_structure.png
+2025-07-15 02:58:23.350 | INFO     | __main__:main:115 - Received URL: https://www.reddit.com/r/catsofrph/
+2025-07-15 02:59:30.786 | INFO     | __main__:main:115 - Received URL: https://www.reddit.com/user/catsofrph/
+2025-07-15 02:59:30.787 | INFO     | __main__:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 02:59:30.790 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:15 - ScraperNode Initialized with RedditScraper
+2025-07-15 02:59:31.229 | INFO     | core.prompt_templates:__init__:16 - PersonaPromptBuilder initialized
+2025-07-15 02:59:31.230 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 02:59:31.230 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 02:59:31.231 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 02:59:31.232 | INFO     | __main__:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 02:59:31.236 | INFO     | __main__:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 02:59:31.237 | INFO     | __main__:run:103 - Running workflow for user: catsofrph
+2025-07-15 02:59:31.241 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:20 - Scraping Reddit data for: catsofrph
+2025-07-15 02:59:32.600 | ERROR    | core.reddit_scraper:fetch_user_data:72 - Error fetching data for user catsofrph: received 404 HTTP response
+2025-07-15 02:59:32.600 | WARNING  | workflows.graphs.persona.nodes.scraper_node:process:26 - No Reddit data found for: catsofrph
+2025-07-15 02:59:32.602 | WARNING  | workflows.graphs.persona.nodes.analyzer_node:process:16 - No documents found in state for analysis.
+2025-07-15 02:59:32.603 | WARNING  | workflows.graphs.persona.nodes.formatter_node:process:16 - No traits available in state for formatting.
+2025-07-15 02:59:32.606 | WARNING  | __main__:get_graph_structure:61 - Pyppeteer is not installed. To enable browser-based rendering, run:
+
+    pip install pyppeteer
+
+2025-07-15 02:59:33.195 | INFO     | __main__:get_graph_structure:73 - Graph saved as -- graph_structure.png
+2025-07-15 02:59:33.196 | INFO     | __main__:main:150 - Saved graph's structure as graph_structure.png
+2025-07-15 03:01:10.991 | INFO     | __main__:main:115 - Received URL: https://www.reddit.com/user/kojied/
+2025-07-15 03:01:10.991 | INFO     | __main__:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 03:01:10.995 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:15 - ScraperNode Initialized with RedditScraper
+2025-07-15 03:01:11.437 | INFO     | core.prompt_templates:__init__:16 - PersonaPromptBuilder initialized
+2025-07-15 03:01:11.438 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 03:01:11.438 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 03:01:11.438 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 03:01:11.440 | INFO     | __main__:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 03:01:11.443 | INFO     | __main__:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 03:01:11.444 | INFO     | __main__:run:103 - Running workflow for user: kojied
+2025-07-15 03:01:11.448 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:20 - Scraping Reddit data for: kojied
+2025-07-15 03:01:16.359 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 10 posts and 10 comments for user: kojied
+2025-07-15 03:01:16.359 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:34 - Scraped 20 documents for user: kojied
+2025-07-15 03:01:16.361 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 20 Reddit posts...
+2025-07-15 03:01:16.361 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: kojied
+2025-07-15 03:01:18.841 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built kojied's Persona Card
+2025-07-15 03:01:18.841 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 03:01:18.842 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 03:01:18.842 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\kojied_persona.txt
+2025-07-15 03:01:18.844 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 03:01:18.847 | WARNING  | __main__:get_graph_structure:61 - Pyppeteer is not installed. To enable browser-based rendering, run:
+
+    pip install pyppeteer
+
+2025-07-15 03:01:19.444 | INFO     | __main__:get_graph_structure:73 - Graph saved as -- graph_structure.png
+2025-07-15 03:01:19.445 | INFO     | __main__:main:150 - Saved graph's structure as graph_structure.png
+2025-07-15 03:08:44.659 | INFO     | __main__:main:115 - Received URL: https://www.reddit.com/user/Hungry-Move-6603/
+2025-07-15 03:08:44.660 | INFO     | __main__:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 03:08:44.664 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:15 - ScraperNode Initialized with RedditScraper
+2025-07-15 03:08:45.097 | INFO     | core.prompt_templates:__init__:16 - PersonaPromptBuilder initialized
+2025-07-15 03:08:45.097 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 03:08:45.097 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 03:08:45.099 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 03:08:45.100 | INFO     | __main__:_build_graph:45 - 🔗 Workflow graph defined.
+2025-07-15 03:08:45.104 | INFO     | __main__:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 03:08:45.105 | INFO     | __main__:run:103 - Running workflow for user: Hungry-Move-6603
+2025-07-15 03:08:45.108 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:20 - Scraping Reddit data for: Hungry-Move-6603
+2025-07-15 03:08:47.597 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 3 posts and 10 comments for user: Hungry-Move-6603
+2025-07-15 03:08:47.597 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:34 - Scraped 13 documents for user: Hungry-Move-6603
+2025-07-15 03:08:47.599 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 13 Reddit posts...
+2025-07-15 03:08:47.599 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: Hungry-Move-6603
+2025-07-15 03:08:50.247 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built Hungry-Move-6603's Persona Card
+2025-07-15 03:08:50.249 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 03:08:50.249 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 03:08:50.250 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\Hungry-Move-6603_persona.txt
+2025-07-15 03:08:50.251 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 03:08:50.254 | WARNING  | __main__:get_graph_structure:61 - Pyppeteer is not installed. To enable browser-based rendering, run:
+
+    pip install pyppeteer
+
+2025-07-15 03:08:50.954 | INFO     | __main__:get_graph_structure:73 - Graph saved as -- graph_structure.png
+2025-07-15 03:08:50.955 | INFO     | __main__:main:150 - Saved graph's structure as graph_structure.png
+2025-07-15 03:09:45.134 | INFO     | __main__:main:115 - Received URL: https://www.reddit.com/user/Hungry-Move-6603/
+2025-07-15 03:09:45.134 | INFO     | __main__:__init__:18 - Initializing PersonaWorkflow...
+2025-07-15 03:09:45.138 | INFO     | workflows.graphs.persona.nodes.scraper_node:__init__:15 - ScraperNode Initialized with RedditScraper
+2025-07-15 03:09:45.575 | INFO     | core.prompt_templates:__init__:16 - PersonaPromptBuilder initialized
+2025-07-15 03:09:45.576 | INFO     | document_processing.analyzer:__init__:19 - PersonaAnalyzer initialized
+2025-07-15 03:09:45.576 | INFO     | workflows.graphs.persona.nodes.analyzer_node:__init__:11 - AnalyzerNode initialized with PersonaAnalyzer
+2025-07-15 03:09:45.576 | INFO     | workflows.graphs.persona.nodes.formatter_node:__init__:11 - FormatterNode initialized with PersonaWriter
+2025-07-15 03:09:45.577 | INFO     | __main__:_build_graph:45 - Workflow graph defined.
+2025-07-15 03:09:45.581 | INFO     | __main__:__init__:26 - PersonaWorkflow initialized successfully
+2025-07-15 03:09:45.582 | INFO     | __main__:run:103 - Running workflow for user: Hungry-Move-6603
+2025-07-15 03:09:45.584 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:20 - Scraping Reddit data for: Hungry-Move-6603
+2025-07-15 03:09:48.353 | INFO     | core.reddit_scraper:fetch_user_data:69 - Fetched 3 posts and 10 comments for user: Hungry-Move-6603
+2025-07-15 03:09:48.354 | INFO     | workflows.graphs.persona.nodes.scraper_node:process:34 - Scraped 13 documents for user: Hungry-Move-6603
+2025-07-15 03:09:48.356 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:20 - Analyzing 13 Reddit posts...
+2025-07-15 03:09:48.356 | INFO     | document_processing.analyzer:analyze_user:35 - Sending prompt to LLM for user: Hungry-Move-6603
+2025-07-15 03:09:50.679 | INFO     | document_processing.analyzer:analyze_user:37 - Successfully built Hungry-Move-6603's Persona Card
+2025-07-15 03:09:50.680 | INFO     | workflows.graphs.persona.nodes.analyzer_node:process:29 - Persona traits extracted.
+2025-07-15 03:09:50.681 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:20 - Formatting traits into a final persona summary...
+2025-07-15 03:09:50.682 | INFO     | document_processing.persona_writer:save_persona_to_txt:40 - Saved the Persona Card to outputs\Hungry-Move-6603_persona.txt
+2025-07-15 03:09:50.682 | INFO     | workflows.graphs.persona.nodes.formatter_node:process:27 - Persona summary successfully generated.
+2025-07-15 03:09:50.686 | WARNING  | __main__:get_graph_structure:61 - Pyppeteer is not installed. To enable browser-based rendering, run:
+
+    pip install pyppeteer
+
+2025-07-15 03:09:51.289 | INFO     | __main__:get_graph_structure:73 - Graph saved as -- graph_structure.png
+2025-07-15 03:09:51.290 | INFO     | __main__:main:150 - Saved graph's structure as graph_structure.png
