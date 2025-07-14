@@ -57,6 +57,7 @@ BeyondChats/
 3. LLM Analysis: The texts are analyzed via a language model using a crafted persona-extraction prompt.
 4. Formatting: The resulting traits are converted into a human-readable persona.
 5. Output: A .txt file is saved, and the persona is returned via API.
+6. & the graph structure of the LangGraph architecture gets saved in the root directory.
 
 ## API Usage
 
@@ -114,17 +115,34 @@ Inferred from:
 
 ______________________________________________________________________________________________________________________________________
 
+## Docker Containerization
+
+Conainerized the FastAPI app in a portable Docker container.
+How to use it:
+
+### 1 - Install docker desktop
+
+### 2 - Create a Docker Image with:
+docker build -t reddit-persona-generator .
+
+### 3 - Intialize the container with:
+docker run -d -p 8000:8000 --env-file .env reddit-persona-generator
+
+### 4 - http://localhost:8000/docs - click on it & try out the whole workflow
+
+______________________________________________________________________________________________________________________________________
+
 ## Tech Stack
  > LangGraph – DAG graph-based LLM pipelines
  > LangChain – LLM orchestration
  > Groq – LLM provider
  > FastAPI – RESTful API
  > PRAW – Reddit scraping
+ > Docker - Containerization
  > Pydantic – Data validation
  > Logging – Structured runtime logs
 
 ______________________________________________________________________________________________________________________________________
-
 
 ## </> by Sailendra -- Happy Building!
 
