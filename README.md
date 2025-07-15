@@ -137,14 +137,14 @@ How to use it:
 ______________________________________________________________________________________________________________________________________
 
 ## Tech Stack
- > LangGraph – DAG graph-based LLM pipelines
- > LangChain – LLM orchestration
- > Groq – LLM provider
- > FastAPI – RESTful API
- > PRAW – Reddit scraping
- > Docker - Containerization
- > Pydantic – Data validation
- > Logging – Structured runtime logs
+ > - LangGraph – DAG graph-based LLM pipelines
+ > - LangChain – LLM orchestration
+ > - Groq – LLM provider
+ > - FastAPI – RESTful API
+ > - PRAW – Reddit scraping
+ > - Docker - Containerization
+ > - Pydantic – Data validation
+ > - Logging – Structured runtime logs
 
 ______________________________________________________________________________________________________________________________________
 
