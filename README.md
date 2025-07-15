@@ -50,7 +50,7 @@ BeyondChats/
 └── README.md
 
 ## But how does it even work?
-1. Input: User provides a Reddit profile link (e.g., https://www.reddit.com/user/spez/ >reddit ceo's url)
+1. Input: User provides a Reddit profile link (e.g. - https://www.reddit.com/user/Hungry-Move-6603/)
 2. Scraping: PRAW collects their most recent posts and comments.
 3. LLM Analysis: The texts are analyzed via a language model using a crafted persona-extraction prompt.
 4. Formatting: The resulting traits are converted into a human-readable persona.
@@ -67,7 +67,7 @@ BeyondChats/
 > Request body:
 
 {
-  "reddit_url": "https://www.reddit.com/user/spez/"
+  "reddit_url": "https://www.reddit.com/user/kojied/"
 }
 
 > Response
