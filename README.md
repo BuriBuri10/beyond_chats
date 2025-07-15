@@ -126,12 +126,13 @@ How to use it:
 ### 1 - Install docker desktop
 
 ### 2 - Create a Docker Image with:
-docker build -t reddit-persona-generator .
+> docker build -t reddit-persona-generator .
 
 ### 3 - Intialize the container with:
-docker run -d -p 8000:8000 --env-file .env reddit-persona-generator
+> docker run -d -p 8000:8000 --env-file .env reddit-persona-generator
 
-### 4 - http://localhost:8000/docs - click on it & try out the whole workflow
+### 4 - Click on it & try out the whole workflow:
+> http://localhost:8000/docs
 
 ______________________________________________________________________________________________________________________________________
 
