@@ -123,12 +123,12 @@ ________________________________________________________________________________
 Conainerized the FastAPI app in a portable Docker container.
 How to use it:
 
-### 1 - Install docker desktop
+### 1 - Install docker desktop & start the terminal
 
-### 2 - Create a Docker Image with:
+### 2 - Create a Docker Image with (in the terminal):
 > docker build -t reddit-persona-generator .
 
-### 3 - Intialize the container with:
+### 3 - Intialize the container with (again, in the terminal):
 > docker run -d -p 8000:8000 --env-file .env reddit-persona-generator
 
 ### 4 - Click on it & try out the whole workflow:
