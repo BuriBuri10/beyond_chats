@@ -87,20 +87,20 @@ ________________________________________________________________________________
 ## How to Set it up
 
 ### 1 - Clone the repo
-git clone https://github.com/your-username/beyond_chats.git
-cd beyond_chats/BeyondChats
+> git clone https://github.com/your-username/beyond_chats.git
+> cd beyond_chats/BeyondChats
 
 ### 2 - Create .env file
-REDDIT_CLIENT_ID=your_id
-REDDIT_CLIENT_SECRET=your_secret
-REDDIT_USER_AGENT=your_user_agent
-GROQ_API_KEY=your_groq_key
+> REDDIT_CLIENT_ID=your_id
+> REDDIT_CLIENT_SECRET=your_secret
+> REDDIT_USER_AGENT=your_user_agent
+> GROQ_API_KEY=your_groq_key
 
 ### 3 - Install dependencies
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
 ### 4 - Run the LangGraph workflow
-python -m workflows.workflow
+> python -m workflows.workflow
 
 ### 5 - Example Output
 Sample file saved in the folder - 'outputs'
