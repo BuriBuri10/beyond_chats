@@ -59,7 +59,8 @@ BeyondChats/
 4. Formatting: The resulting traits are converted into a human-readable persona.
 5. Output: A .txt file is saved, and the persona is returned via API.
 6. & the graph structure of the LangGraph architecture gets saved in the root directory.
-7. Start the terminal & run: > python -m workflows.workflow
+7. Start the terminal & run:
+   > python -m workflows.workflow
 
 ## API Usage
 
