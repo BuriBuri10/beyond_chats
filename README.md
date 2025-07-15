@@ -4,6 +4,7 @@
 # To run the executable python script, open the terminal & run: 
 python -m workflows.workflow
 
+
 A modular, production-ready application that analyzes Reddit user activity and generates a psychological or behavioral persona based on their posts and comments. Built using LangGraph, FastAPI, and integrates LLMs via Groq or other providers.
 
 ## Features
