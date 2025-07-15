@@ -28,7 +28,7 @@ BeyondChats/
 ├── document_processing/
 │ ├── analyzer.py # Calls LLM to extract traits
 │ ├── persona_writer.py # Writes persona text to file
-│ └── utils.py # Helper functions (if needed)
+│ └── utils.py # Helper functions
 │
 ├── models/ # Pydantic models for validation
 │ └── persona_model.py
