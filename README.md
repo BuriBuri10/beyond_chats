@@ -12,7 +12,7 @@ A modular, production-ready application that analyzes Reddit user activity and g
 - Reddit Scraping: Fetches user posts and comments via PRAW.
 - LLM-Powered Analysis: Uses prompts to extract personality traits.
 - Persona Generation: Outputs formatted summaries and optionally structured JSON personas.
-- Modular Architecture: template.py contains the scaffolding/skeleton of the entire project's architecture. Clean separation of concerns using folders like - core/, document_processing/, workflows/, etc.
+- Modular Architecture: 'template.py' contains the scaffolding/skeleton of the entire project's architecture. Clean separation of concerns using folders like - core/, document_processing/, workflows/, etc.
 - FastAPI Interface: Submit Reddit usernames via a REST API.
 - Output Storage: Saves persona summaries as .txt files in the outputs/ folder.
 - LangGraph Workflow: Defines nodes for scraper → analyzer → formatter.
