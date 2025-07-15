@@ -1,6 +1,7 @@
 # NOTE: beyond_chats
 
 ## RedditPsyche
+# To run the executable python script, open the terminal & run: python -m workflows.workflow
 
 A modular, production-ready application that analyzes Reddit user activity and generates a psychological or behavioral persona based on their posts and comments. Built using LangGraph, FastAPI, and integrates LLMs via Groq or other providers.
 
@@ -56,6 +57,7 @@ BeyondChats/
 4. Formatting: The resulting traits are converted into a human-readable persona.
 5. Output: A .txt file is saved, and the persona is returned via API.
 6. & the graph structure of the LangGraph architecture gets saved in the root directory.
+# 7 - Start the terminal & run: python -m workflows.workflow
 
 ## API Usage
 
