@@ -8,7 +8,7 @@
 ### POST/api/generate-persona
 Request body:
 
-{
+> {
   "reddit_url": "https://www.reddit.com/user/kojied/"
 }
 
