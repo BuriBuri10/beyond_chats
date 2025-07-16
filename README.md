@@ -1,4 +1,29 @@
-# NOTE: beyond_chats
+# Deployed Soultion: https://webscraper-zf72.onrender.com
+
+## Usage
+
+### Click on the above URL & follow the below mentioned steps
+>   Access the Swagger UI at: https://webscraper-zf72.onrender.com/docs
+
+### POST/api/generate-persona
+> Request body:
+
+{
+  "reddit_url": "https://www.reddit.com/user/kojied/"
+}
+
+> Response
+
+{
+  "persona": "This user appears to be confident, opinionated, and deeply engaged with discussions around tech and policy..."
+}
+
+### POST/api/download
+Request body:
+> username: kojied
+
+Response body:
+> Download file
 
 ## RedditPsyche
 ## To run the executable python script, open the terminal & run: 
@@ -81,6 +106,25 @@ BeyondChats/
   "persona": "This user appears to be confident, opinionated, and deeply engaged with discussions around tech and policy..."
 }
 
+### POST/api/generate-persona
+> Request body:
+
+{
+  "reddit_url": "https://www.reddit.com/user/kojied/"
+}
+
+> Response
+
+{
+  "persona": "This user appears to be confident, opinionated, and deeply engaged with discussions around tech and policy..."
+}
+
+### POST/api/download
+Request body:
+> username: kojied
+
+Response body:
+> Download file
 _____________________________________________________________________________________________________________________________
 
 
