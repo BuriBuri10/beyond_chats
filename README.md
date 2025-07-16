@@ -6,15 +6,15 @@
 >   Access the Swagger UI at: https://webscraper-zf72.onrender.com/docs
 
 ### POST/api/generate-persona
-> Request body:
+Request body:
 
 {
   "reddit_url": "https://www.reddit.com/user/kojied/"
 }
 
-> Response
+Response body:
 
-{
+> {
   "persona": "This user appears to be confident, opinionated, and deeply engaged with discussions around tech and policy..."
 }
 
